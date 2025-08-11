@@ -36,7 +36,8 @@ while True:
 
 print("\n Thanks for your order, sir.")
 print("Here is your bill:\n")
-for item, qty in order_details.items():
-    print(f"{item} x {qty} = {menu[item] * qty} TK")
+for item, quantity in order_details.items():
+    print(f"{item} x {quantity} = {menu[item] * quantity} TK")
 
 print(f"\nTotal Amount to Pay: {order_total} TK")
+
