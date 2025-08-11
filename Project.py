@@ -8,7 +8,7 @@ menu = {
     "Kabab": 60,
 }
 
-print("👋+ Hello sir, Welcome to our restaurant. Here is our menu:\n")
+print(" Hello sir, Welcome to our restaurant. Here is our menu:\n")
 print("Pizza: 70TK/-\nPasta: 50TK/-\nBurger: 30TK/-\nSalad: 30Tk/-\nCoffee: 60TK/-\nFries: 20Tk/-\nkabab: 60Tk/-")
 order_total = 0
 order_details = {}
@@ -28,14 +28,15 @@ while True:
         except ValueError:
             print("Please enter a number for quantity.")
     else:
-        print("❌ Sorry! That item is not available.")
+        print(" Sorry! That item is not available.")
 
     another = input("Would you like to order anything else? (Yes/No): ").strip().lower()
     if another != 'yes':
         break
 
-print("\n🧾 Thanks for your order, sir.")
+print("\n Thanks for your order, sir.")
 print("Here is your bill:\n")
 for item, qty in order_details.items():
     print(f"{item} x {qty} = {menu[item] * qty} TK")
+
 print(f"\nTotal Amount to Pay: {order_total} TK")
