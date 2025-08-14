@@ -1,7 +1,10 @@
 # CSE-3201-Project-Restaurant-Management-System-
 SD-1 Project
 A simple Python console program to take restaurant orders and generate a bill.
-
+In this project, we have developed a simple text-based restaurant ordering system using the
+Python programming language. The main objective of this system is to simulate a basic menudriven order-taking process, which is commonly used in restaurants or cafes. This program
+allows customers to view the menu, place orders by choosing items and their quantities, and
+finally view the total bill for their selected items.
 ## Features
 - Display menu with prices.
 - Take multiple orders.
